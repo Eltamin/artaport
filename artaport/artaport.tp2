@@ -1,0 +1,873 @@
+BACKUP ~artaport\backup~
+AUTHOR ~Etamin~
+README ~artaport/readme.docx~
+VERSION ~2.0~
+
+LANGUAGE ~English~
+         ~english~
+         ~artaport\tra\english\setup.tra~
+
+LANGUAGE ~Polish~
+         ~polish~
+         ~artaport\tra\polish\setup.tra~
+
+
+//=================================================================================================
+//=================================================================================================
+
+
+BEGIN @30 
+REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @25
+
+COPY ~artaport\main\abazfuls.bmp~            ~override\abazfuls.bmp~
+COPY ~artaport\main\abazhals.bmp~            ~override\abazhals.bmp~
+COPY ~artaport\main\ajantisl.bmp~            ~override\ajantisl.bmp~
+COPY ~artaport\main\ajantism.bmp~            ~override\ajantism.bmp~
+COPY ~artaport\main\ajantiss.bmp~            ~override\ajantiss.bmp~
+COPY ~artaport\main\aloral.bmp~            ~override\aloral.bmp~
+COPY ~artaport\main\aloram.bmp~            ~override\aloram.bmp~
+COPY ~artaport\main\aloras.bmp~            ~override\aloras.bmp~
+COPY ~artaport\main\baelothl.bmp~            ~override\baelothl.bmp~
+COPY ~artaport\main\baelothm.bmp~            ~override\baelothm.bmp~
+COPY ~artaport\main\baeloths.bmp~            ~override\baeloths.bmp~
+COPY ~artaport\main\balthazs.bmp~            ~override\balthazs.bmp~
+COPY ~artaport\main\bdorcf1l.bmp~            ~override\bdorcf1l.bmp~
+COPY ~artaport\main\bdorcf1m.bmp~            ~override\bdorcf1m.bmp~
+COPY ~artaport\main\bdorcm1l.bmp~            ~override\bdorcm1l.bmp~
+COPY ~artaport\main\bdorcm1m.bmp~            ~override\bdorcm1m.bmp~
+COPY ~artaport\main\branwel.bmp~            ~override\branwel.bmp~
+COPY ~artaport\main\branwem.bmp~            ~override\branwem.bmp~
+COPY ~artaport\main\branwes.bmp~            ~override\branwes.bmp~
+COPY ~artaport\main\coranl.bmp~            ~override\coranl.bmp~
+COPY ~artaport\main\coranm.bmp~            ~override\coranm.bmp~
+COPY ~artaport\main\corans.bmp~            ~override\corans.bmp~
+COPY ~artaport\main\dornl.bmp~            ~override\dornl.bmp~
+COPY ~artaport\main\dornm.bmp~            ~override\dornm.bmp~
+COPY ~artaport\main\dorns.bmp~            ~override\dorns.bmp~
+COPY ~artaport\main\dsclaral.bmp~            ~override\dsclaral.bmp~
+COPY ~artaport\main\dsclaram.bmp~            ~override\dsclaram.bmp~
+COPY ~artaport\main\dsclaras.bmp~            ~override\dsclaras.bmp~
+COPY ~artaport\main\dynaheil.bmp~            ~override\dynaheil.bmp~
+COPY ~artaport\main\dynaheim.bmp~            ~override\dynaheim.bmp~
+COPY ~artaport\main\dynaheis.bmp~            ~override\dynaheis.bmp~
+COPY ~artaport\main\edwin2l.bmp~            ~override\edwinl.bmp~
+COPY ~artaport\main\edwin2m.bmp~            ~override\edwinm.bmp~
+COPY ~artaport\main\edwin2s.bmp~            ~override\edwins.bmp~
+COPY ~artaport\main\eldothl.bmp~            ~override\eldothl.bmp~
+COPY ~artaport\main\eldothm.bmp~            ~override\eldothm.bmp~
+COPY ~artaport\main\eldoths.bmp~            ~override\eldoths.bmp~
+COPY ~artaport\main\faldornl.bmp~            ~override\faldornl.bmp~
+COPY ~artaport\main\faldornm.bmp~            ~override\faldornm.bmp~
+COPY ~artaport\main\faldorns.bmp~            ~override\faldorns.bmp~
+COPY ~artaport\main\garrickl.bmp~            ~override\garrickl.bmp~
+COPY ~artaport\main\garrickm.bmp~            ~override\garrickm.bmp~
+COPY ~artaport\main\garricks.bmp~            ~override\garricks.bmp~
+COPY ~artaport\main\illisars.bmp~            ~override\illisars.bmp~
+COPY ~artaport\main\imoen2L.bmp~            ~override\imoenL.bmp~
+COPY ~artaport\main\imoen2m.bmp~            ~override\imoenm.bmp~
+COPY ~artaport\main\imoen2s.bmp~            ~override\imoens.bmp~
+COPY ~artaport\main\jaheir2L.bmp~            ~override\jaheiraL.bmp~
+COPY ~artaport\main\jaheir2m.bmp~            ~override\jaheiram.bmp~
+COPY ~artaport\main\jaheir2s.bmp~            ~override\jaheiras.bmp~
+COPY ~artaport\main\minsc2l.bmp~            ~override\minscl.bmp~
+COPY ~artaport\main\minsc2m.bmp~            ~override\minscm.bmp~
+COPY ~artaport\main\minsc2s.bmp~            ~override\minscs.bmp~
+COPY ~artaport\main\naeriel.bmp~            ~override\naeriel.bmp~
+COPY ~artaport\main\naeriem.bmp~            ~override\naeriem.bmp~
+COPY ~artaport\main\naeries.bmp~            ~override\naeries.bmp~
+COPY ~artaport\main\nanomenl.bmp~            ~override\nanomenl.bmp~
+COPY ~artaport\main\nanomenm.bmp~            ~override\nanomenm.bmp~
+COPY ~artaport\main\nanomens.bmp~            ~override\nanomens.bmp~
+COPY ~artaport\main\nbodhil.bmp~            ~override\nbodhil.bmp~
+COPY ~artaport\main\nbodhig.bmp~            ~override\nbodhig.bmp~
+COPY ~artaport\main\nbodhis.bmp~            ~override\nbodhis.bmp~
+COPY ~artaport\main\ncerndl.bmp~            ~override\ncerndl.bmp~
+COPY ~artaport\main\ncerndm.bmp~            ~override\ncerndm.bmp~
+COPY ~artaport\main\ncernds.bmp~            ~override\ncernds.bmp~
+COPY ~artaport\main\nedwinl.bmp~            ~override\nedwinl.bmp~
+COPY ~artaport\main\nedwinm.bmp~            ~override\nedwinm.bmp~
+COPY ~artaport\main\nedwins.bmp~            ~override\nedwins.bmp~
+COPY ~artaport\main\nhaerl.bmp~            ~override\nhaerl.bmp~
+COPY ~artaport\main\nhaerm.bmp~            ~override\nhaerm.bmp~
+COPY ~artaport\main\nhaers.bmp~            ~override\nhaers.bmp~
+COPY ~artaport\main\nhorcl.bmp~            ~override\nhorcl.bmp~
+COPY ~artaport\main\nhorcm.bmp~            ~override\nhorcm.bmp~
+COPY ~artaport\main\nhorcs.bmp~            ~override\nhorcs.bmp~
+COPY ~artaport\main\nimoenl.bmp~            ~override\nimoenl.bmp~
+COPY ~artaport\main\nimoenm.bmp~            ~override\nimoenm.bmp~
+COPY ~artaport\main\nimoens.bmp~            ~override\nimoens.bmp~
+COPY ~artaport\main\njaheirl.bmp~            ~override\njaheirl.bmp~
+COPY ~artaport\main\njaheirm.bmp~            ~override\njaheirm.bmp~
+COPY ~artaport\main\njaheirs.bmp~            ~override\njaheirs.bmp~
+COPY ~artaport\main\njanl.bmp~            ~override\njanl.bmp~
+COPY ~artaport\main\njanm.bmp~            ~override\njanm.bmp~
+COPY ~artaport\main\njans.bmp~            ~override\njans.bmp~
+COPY ~artaport\main\njonl.bmp~            ~override\njonl.bmp~
+COPY ~artaport\main\njonm.bmp~            ~override\njonm.bmp~
+COPY ~artaport\main\nkeldorl.bmp~            ~override\nkeldorl.bmp~
+COPY ~artaport\main\nkeldorm.bmp~            ~override\nkeldorm.bmp~
+COPY ~artaport\main\nkeldors.bmp~            ~override\nkeldors.bmp~
+COPY ~artaport\main\nkorganl.bmp~            ~override\nkorganl.bmp~
+COPY ~artaport\main\nkorganm.bmp~            ~override\nkorganm.bmp~
+COPY ~artaport\main\nkorgans.bmp~            ~override\nkorgans.bmp~
+COPY ~artaport\main\nmazzyl.bmp~            ~override\nmazzyl.bmp~
+COPY ~artaport\main\nmazzym.bmp~            ~override\nmazzym.bmp~
+COPY ~artaport\main\nmazzys.bmp~            ~override\nmazzys.bmp~
+COPY ~artaport\main\nminscl.bmp~            ~override\nminscl.bmp~
+COPY ~artaport\main\nminscm.bmp~            ~override\nminscm.bmp~
+COPY ~artaport\main\nminscs.bmp~            ~override\nminscs.bmp~
+COPY ~artaport\main\nnalial.bmp~            ~override\nnalial.bmp~
+COPY ~artaport\main\nnaliam.bmp~            ~override\nnaliam.bmp~
+COPY ~artaport\main\nnalias.bmp~            ~override\nnalias.bmp~
+COPY ~artaport\main\nvalygal.bmp~            ~override\nvalygal.bmp~
+COPY ~artaport\main\nvalygam.bmp~            ~override\nvalygam.bmp~
+COPY ~artaport\main\nvalygas.bmp~            ~override\nvalygas.bmp~
+COPY ~artaport\main\nviconl.bmp~            ~override\nviconl.bmp~
+COPY ~artaport\main\nviconm.bmp~            ~override\nviconm.bmp~
+COPY ~artaport\main\nvicons.bmp~            ~override\nvicons.bmp~
+COPY ~artaport\main\nyoshiml.bmp~            ~override\nyoshiml.bmp~
+COPY ~artaport\main\nyoshimm.bmp~            ~override\nyoshimm.bmp~
+COPY ~artaport\main\nyoshims.bmp~            ~override\nyoshims.bmp~
+COPY ~artaport\main\montarl.bmp~            ~override\montarl.bmp~
+COPY ~artaport\main\montarm.bmp~            ~override\montarm.bmp~
+COPY ~artaport\main\montars.bmp~            ~override\montars.bmp~
+COPY ~artaport\main\ohhexl.bmp~            ~override\ohhexl.bmp~
+COPY ~artaport\main\ohhexm.bmp~            ~override\ohhexm.bmp~
+COPY ~artaport\main\ohhexs.bmp~            ~override\ohhexs.bmp~
+COPY ~artaport\main\ohhexxl.bmp~            ~override\ohhexxl.bmp~
+COPY ~artaport\main\ohhexxm.bmp~            ~override\ohhexxm.bmp~
+COPY ~artaport\main\ohhexxs.bmp~            ~override\ohhexxs.bmp~
+COPY ~artaport\main\sunal.bmp~            ~override\sunal.bmp~
+COPY ~artaport\main\sunas.bmp~            ~override\sunas.bmp~
+COPY ~artaport\main\GenDWRFL.bmp~            ~override\GenDWRFL.bmp~
+COPY ~artaport\main\GenDWRFm.bmp~            ~override\GenDWRFm.bmp~
+COPY ~artaport\main\GenDWRFs.bmp~            ~override\GenDWRFs.bmp~
+COPY ~artaport\main\GenMELFL.bmp~            ~override\GenMELFL.bmp~
+COPY ~artaport\main\GenMELFm.bmp~            ~override\GenMELFm.bmp~
+COPY ~artaport\main\GenMELFs.bmp~            ~override\GenMELFs.bmp~
+COPY ~artaport\main\GenMHLFL.bmp~            ~override\GenMHLFL.bmp~
+COPY ~artaport\main\GenMHLFm.bmp~            ~override\GenMHLFm.bmp~
+COPY ~artaport\main\GenMHLFs.bmp~            ~override\GenMHLFs.bmp~
+COPY ~artaport\main\gromnirs.bmp~            ~override\gromnirs.bmp~
+COPY ~artaport\main\kagainL.bmp~            ~override\kagainL.bmp~
+COPY ~artaport\main\kagainm.bmp~            ~override\kagainm.bmp~
+COPY ~artaport\main\kagains.bmp~            ~override\kagains.bmp~
+COPY ~artaport\main\khalidl.bmp~            ~override\khalidl.bmp~
+COPY ~artaport\main\khalidm.bmp~            ~override\khalidm.bmp~
+COPY ~artaport\main\khalids.bmp~            ~override\khalids.bmp~
+COPY ~artaport\main\kivanl.bmp~            ~override\kivanl.bmp~
+COPY ~artaport\main\kivanm.bmp~            ~override\kivanm.bmp~
+COPY ~artaport\main\kivans.bmp~            ~override\kivans.bmp~
+COPY ~artaport\main\man1l.bmp~            ~override\man1l.bmp~
+COPY ~artaport\main\man1m.bmp~            ~override\man1m.bmp~
+COPY ~artaport\main\man1s.bmp~            ~override\man1s.bmp~
+COPY ~artaport\main\man2l.bmp~            ~override\man2l.bmp~
+COPY ~artaport\main\man2m.bmp~            ~override\man2m.bmp~
+COPY ~artaport\main\man2s.bmp~            ~override\man2s.bmp~
+COPY ~artaport\main\manley0l.bmp~            ~override\manley0l.bmp~
+COPY ~artaport\main\manley0m.bmp~            ~override\manley0m.bmp~
+COPY ~artaport\main\manley0s.bmp~            ~override\manley0s.bmp~
+COPY ~artaport\main\manley1l.bmp~            ~override\manley1l.bmp~
+COPY ~artaport\main\manley1m.bmp~            ~override\manley1m.bmp~
+COPY ~artaport\main\manley1s.bmp~            ~override\manley1s.bmp~
+COPY ~artaport\main\manley2l.bmp~            ~override\manley2l.bmp~
+COPY ~artaport\main\manley2m.bmp~            ~override\manley2m.bmp~
+COPY ~artaport\main\manley2s.bmp~            ~override\manley2s.bmp~
+COPY ~artaport\main\manley3l.bmp~            ~override\manley3l.bmp~
+COPY ~artaport\main\manley3m.bmp~            ~override\manley3m.bmp~
+COPY ~artaport\main\manley3s.bmp~            ~override\manley3s.bmp~
+COPY ~artaport\main\manley4l.bmp~            ~override\manley4l.bmp~
+COPY ~artaport\main\manley4m.bmp~            ~override\manley4m.bmp~
+COPY ~artaport\main\manley4s.bmp~            ~override\manley4s.bmp~
+COPY ~artaport\main\manley5l.bmp~            ~override\manley5l.bmp~
+COPY ~artaport\main\manley5m.bmp~            ~override\manley5m.bmp~
+COPY ~artaport\main\manley5s.bmp~            ~override\manley5s.bmp~
+COPY ~artaport\main\manley6l.bmp~            ~override\manley6l.bmp~
+COPY ~artaport\main\manley6m.bmp~            ~override\manley6m.bmp~
+COPY ~artaport\main\manley6s.bmp~            ~override\manley6s.bmp~
+COPY ~artaport\main\manley7l.bmp~            ~override\manley7l.bmp~
+COPY ~artaport\main\manley7m.bmp~            ~override\manley7m.bmp~
+COPY ~artaport\main\manley7s.bmp~            ~override\manley7s.bmp~
+COPY ~artaport\main\manley8l.bmp~            ~override\manley8l.bmp~
+COPY ~artaport\main\manley8m.bmp~            ~override\manley8m.bmp~
+COPY ~artaport\main\manley8s.bmp~            ~override\manley8s.bmp~
+COPY ~artaport\main\manley9l.bmp~            ~override\manley9l.bmp~
+COPY ~artaport\main\manley9m.bmp~            ~override\manley9m.bmp~
+COPY ~artaport\main\manley9s.bmp~            ~override\manley9s.bmp~
+COPY ~artaport\main\manleyxl.bmp~            ~override\manleyxl.bmp~
+COPY ~artaport\main\manleyxm.bmp~            ~override\manleyxm.bmp~
+COPY ~artaport\main\manleyxs.bmp~            ~override\manleyxs.bmp~
+COPY ~artaport\main\mel_bads.bmp~            ~override\mel_bads.bmp~
+COPY ~artaport\main\mel_gds.bmp~            ~override\mel_gds.bmp~
+COPY ~artaport\main\neeral.bmp~            ~override\neeral.bmp~
+COPY ~artaport\main\neeram.bmp~            ~override\neeram.bmp~
+COPY ~artaport\main\neeras.bmp~            ~override\neeras.bmp~
+COPY ~artaport\main\skiel.bmp~            ~override\skiel.bmp~
+COPY ~artaport\main\skiem.bmp~            ~override\skiem.bmp~
+COPY ~artaport\main\skies.bmp~            ~override\skies.bmp~
+COPY ~artaport\main\tiaxl.bmp~            ~override\tiaxl.bmp~
+COPY ~artaport\main\tiaxm.bmp~            ~override\tiaxm.bmp~
+COPY ~artaport\main\tiaxs.bmp~            ~override\tiaxs.bmp~
+COPY ~artaport\main\quaylel.bmp~            ~override\quaylel.bmp~
+COPY ~artaport\main\quaylem.bmp~            ~override\quaylem.bmp~
+COPY ~artaport\main\quayles.bmp~            ~override\quayles.bmp~
+COPY ~artaport\main\rasaadl.bmp~            ~override\rasaadl.bmp~
+COPY ~artaport\main\rasaadm.bmp~            ~override\rasaadm.bmp~
+COPY ~artaport\main\rasaads.bmp~            ~override\rasaads.bmp~
+COPY ~artaport\main\safanal.bmp~            ~override\safanal.bmp~
+COPY ~artaport\main\safanam.bmp~            ~override\safanam.bmp~
+COPY ~artaport\main\safanas.bmp~            ~override\safanas.bmp~
+COPY ~artaport\main\sarevok.bmp~            ~override\sarevok.bmp~
+COPY ~artaport\main\sarevokl.bmp~            ~override\sarevokl.bmp~
+COPY ~artaport\main\sarevokm.bmp~            ~override\sarevokm.bmp~
+COPY ~artaport\main\sarevoks.bmp~            ~override\sarevoks.bmp~
+COPY ~artaport\main\sendais.bmp~            ~override\sendais.bmp~
+COPY ~artaport\main\shartell.bmp~            ~override\shartell.bmp~
+COPY ~artaport\main\shartelm.bmp~            ~override\shartelm.bmp~
+COPY ~artaport\main\shartels.bmp~            ~override\shartels.bmp~
+COPY ~artaport\main\solars.bmp~            ~override\solars.bmp~
+COPY ~artaport\main\suelle.bmp~            ~override\suelle.bmp~
+COPY ~artaport\main\viconl.bmp~            ~override\viconial.bmp~
+COPY ~artaport\main\viconm.bmp~            ~override\viconiam.bmp~
+COPY ~artaport\main\vicons.bmp~            ~override\viconias.bmp~
+COPY ~artaport\main\woman1l.bmp~            ~override\woman1l.bmp~
+COPY ~artaport\main\woman1m.bmp~            ~override\woman1m.bmp~
+COPY ~artaport\main\woman1s.bmp~            ~override\woman1s.bmp~
+COPY ~artaport\main\woman2l.bmp~            ~override\woman2l.bmp~
+COPY ~artaport\main\woman2m.bmp~            ~override\woman2m.bmp~
+COPY ~artaport\main\woman2s.bmp~            ~override\woman2s.bmp~
+COPY ~artaport\main\wwfbl.bmp~            ~override\wwfbl.bmp~
+COPY ~artaport\main\wwnbl.bmp~            ~override\wwnbl.bmp~
+COPY ~artaport\main\wwnbs.bmp~            ~override\wwnbs.bmp~
+COPY ~artaport\main\xanl.bmp~            ~override\xanl.bmp~
+COPY ~artaport\main\xanm.bmp~            ~override\xanm.bmp~
+COPY ~artaport\main\xans.bmp~            ~override\xans.bmp~
+COPY ~artaport\main\xzarl.bmp~            ~override\xzarl.bmp~
+COPY ~artaport\main\xzarm.bmp~            ~override\xzarm.bmp~
+COPY ~artaport\main\xzars.bmp~            ~override\xzars.bmp~
+COPY ~artaport\main\yeslickl.bmp~            ~override\yeslickl.bmp~
+COPY ~artaport\main\yeslickm.bmp~            ~override\yeslickm.bmp~
+COPY ~artaport\main\yeslicks.bmp~            ~override\yeslicks.bmp~
+COPY ~artaport\main\yagashrs.bmp~            ~override\yagashrs.bmp~
+
+BEGIN @10 
+REQUIRE_PREDICATE GAME_IS ~bgee eet~ @25
+
+COPY ~artaport\main\ajantisl.bmp~            ~override\ajantisl.bmp~
+COPY ~artaport\main\ajantism.bmp~            ~override\ajantism.bmp~
+COPY ~artaport\main\ajantiss.bmp~            ~override\ajantiss.bmp~
+COPY ~artaport\main\aloral.bmp~            ~override\aloral.bmp~
+COPY ~artaport\main\aloram.bmp~            ~override\aloram.bmp~
+COPY ~artaport\main\aloras.bmp~            ~override\aloras.bmp~
+COPY ~artaport\main\baelothl.bmp~            ~override\baelothl.bmp~
+COPY ~artaport\main\baelothm.bmp~            ~override\baelothm.bmp~
+COPY ~artaport\main\baeloths.bmp~            ~override\baeloths.bmp~
+COPY ~artaport\main\bdorcf1l.bmp~            ~override\bdorcf1l.bmp~
+COPY ~artaport\main\bdorcf1m.bmp~            ~override\bdorcf1m.bmp~
+COPY ~artaport\main\bdorcm1l.bmp~            ~override\bdorcm1l.bmp~
+COPY ~artaport\main\bdorcm1m.bmp~            ~override\bdorcm1m.bmp~
+COPY ~artaport\main\branwel.bmp~            ~override\branwel.bmp~
+COPY ~artaport\main\branwem.bmp~            ~override\branwem.bmp~
+COPY ~artaport\main\branwes.bmp~            ~override\branwes.bmp~
+COPY ~artaport\main\coranl.bmp~            ~override\coranl.bmp~
+COPY ~artaport\main\coranm.bmp~            ~override\coranm.bmp~
+COPY ~artaport\main\corans.bmp~            ~override\corans.bmp~
+COPY ~artaport\main\dornl.bmp~            ~override\dornl.bmp~
+COPY ~artaport\main\dornm.bmp~            ~override\dornm.bmp~
+COPY ~artaport\main\dorns.bmp~            ~override\dorns.bmp~
+COPY ~artaport\main\dynaheil.bmp~            ~override\dynaheil.bmp~
+COPY ~artaport\main\dynaheim.bmp~            ~override\dynaheim.bmp~
+COPY ~artaport\main\dynaheis.bmp~            ~override\dynaheis.bmp~
+COPY ~artaport\main\edwinl.bmp~            ~override\edwinl.bmp~
+COPY ~artaport\main\edwinm.bmp~            ~override\edwinm.bmp~
+COPY ~artaport\main\edwins.bmp~            ~override\edwins.bmp~
+COPY ~artaport\main\eldothl.bmp~            ~override\eldothl.bmp~
+COPY ~artaport\main\eldothm.bmp~            ~override\eldothm.bmp~
+COPY ~artaport\main\eldoths.bmp~            ~override\eldoths.bmp~
+COPY ~artaport\main\faldornl.bmp~            ~override\faldornl.bmp~
+COPY ~artaport\main\faldornm.bmp~            ~override\faldornm.bmp~
+COPY ~artaport\main\faldorns.bmp~            ~override\faldorns.bmp~
+COPY ~artaport\main\garrickl.bmp~            ~override\garrickl.bmp~
+COPY ~artaport\main\garrickm.bmp~            ~override\garrickm.bmp~
+COPY ~artaport\main\garricks.bmp~            ~override\garricks.bmp~
+COPY ~artaport\main\GenDWRFL.bmp~            ~override\GenDWRFL.bmp~
+COPY ~artaport\main\GenDWRFm.bmp~            ~override\GenDWRFm.bmp~
+COPY ~artaport\main\GenDWRFs.bmp~            ~override\GenDWRFs.bmp~
+COPY ~artaport\main\GenMELFL.bmp~            ~override\GenMELFL.bmp~
+COPY ~artaport\main\GenMELFm.bmp~            ~override\GenMELFm.bmp~
+COPY ~artaport\main\GenMELFs.bmp~            ~override\GenMELFs.bmp~
+COPY ~artaport\main\GenMHLFL.bmp~            ~override\GenMHLFL.bmp~
+COPY ~artaport\main\GenMHLFm.bmp~            ~override\GenMHLFm.bmp~
+COPY ~artaport\main\GenMHLFs.bmp~            ~override\GenMHLFs.bmp~
+COPY ~artaport\main\imoenL.bmp~            ~override\imoenL.bmp~
+COPY ~artaport\main\imoenm.bmp~            ~override\imoenm.bmp~
+COPY ~artaport\main\imoens.bmp~            ~override\imoens.bmp~
+COPY ~artaport\main\jaheiraL.bmp~            ~override\jaheiraL.bmp~
+COPY ~artaport\main\jaheiram.bmp~            ~override\jaheiram.bmp~
+COPY ~artaport\main\jaheiras.bmp~            ~override\jaheiras.bmp~
+COPY ~artaport\main\kagainL.bmp~            ~override\kagainL.bmp~
+COPY ~artaport\main\kagainm.bmp~            ~override\kagainm.bmp~
+COPY ~artaport\main\kagains.bmp~            ~override\kagains.bmp~
+COPY ~artaport\main\khalidl.bmp~            ~override\khalidl.bmp~
+COPY ~artaport\main\khalidm.bmp~            ~override\khalidm.bmp~
+COPY ~artaport\main\khalids.bmp~            ~override\khalids.bmp~
+COPY ~artaport\main\kivanl.bmp~            ~override\kivanl.bmp~
+COPY ~artaport\main\kivanm.bmp~            ~override\kivanm.bmp~
+COPY ~artaport\main\kivans.bmp~            ~override\kivans.bmp~
+COPY ~artaport\main\man1l.bmp~            ~override\man1l.bmp~
+COPY ~artaport\main\man1m.bmp~            ~override\man1m.bmp~
+COPY ~artaport\main\man1s.bmp~            ~override\man1s.bmp~
+COPY ~artaport\main\man2l.bmp~            ~override\man2l.bmp~
+COPY ~artaport\main\man2m.bmp~            ~override\man2m.bmp~
+COPY ~artaport\main\man2s.bmp~            ~override\man2s.bmp~
+COPY ~artaport\main\manley0l.bmp~            ~override\manley0l.bmp~
+COPY ~artaport\main\manley0m.bmp~            ~override\manley0m.bmp~
+COPY ~artaport\main\manley0s.bmp~            ~override\manley0s.bmp~
+COPY ~artaport\main\manley1l.bmp~            ~override\manley1l.bmp~
+COPY ~artaport\main\manley1m.bmp~            ~override\manley1m.bmp~
+COPY ~artaport\main\manley1s.bmp~            ~override\manley1s.bmp~
+COPY ~artaport\main\manley2l.bmp~            ~override\manley2l.bmp~
+COPY ~artaport\main\manley2m.bmp~            ~override\manley2m.bmp~
+COPY ~artaport\main\manley2s.bmp~            ~override\manley2s.bmp~
+COPY ~artaport\main\manley3l.bmp~            ~override\manley3l.bmp~
+COPY ~artaport\main\manley3m.bmp~            ~override\manley3m.bmp~
+COPY ~artaport\main\manley3s.bmp~            ~override\manley3s.bmp~
+COPY ~artaport\main\manley4l.bmp~            ~override\manley4l.bmp~
+COPY ~artaport\main\manley4m.bmp~            ~override\manley4m.bmp~
+COPY ~artaport\main\manley4s.bmp~            ~override\manley4s.bmp~
+COPY ~artaport\main\manley5l.bmp~            ~override\manley5l.bmp~
+COPY ~artaport\main\manley5m.bmp~            ~override\manley5m.bmp~
+COPY ~artaport\main\manley5s.bmp~            ~override\manley5s.bmp~
+COPY ~artaport\main\manley6l.bmp~            ~override\manley6l.bmp~
+COPY ~artaport\main\manley6m.bmp~            ~override\manley6m.bmp~
+COPY ~artaport\main\manley6s.bmp~            ~override\manley6s.bmp~
+COPY ~artaport\main\manley7l.bmp~            ~override\manley7l.bmp~
+COPY ~artaport\main\manley7m.bmp~            ~override\manley7m.bmp~
+COPY ~artaport\main\manley7s.bmp~            ~override\manley7s.bmp~
+COPY ~artaport\main\manley8l.bmp~            ~override\manley8l.bmp~
+COPY ~artaport\main\manley8m.bmp~            ~override\manley8m.bmp~
+COPY ~artaport\main\manley8s.bmp~            ~override\manley8s.bmp~
+COPY ~artaport\main\manley9l.bmp~            ~override\manley9l.bmp~
+COPY ~artaport\main\manley9m.bmp~            ~override\manley9m.bmp~
+COPY ~artaport\main\manley9s.bmp~            ~override\manley9s.bmp~
+COPY ~artaport\main\manleyxl.bmp~            ~override\manleyxl.bmp~
+COPY ~artaport\main\manleyxm.bmp~            ~override\manleyxm.bmp~
+COPY ~artaport\main\manleyxs.bmp~            ~override\manleyxs.bmp~
+COPY ~artaport\main\minscl.bmp~            ~override\minscl.bmp~
+COPY ~artaport\main\minscm.bmp~            ~override\minscm.bmp~
+COPY ~artaport\main\minscs.bmp~            ~override\minscs.bmp~
+COPY ~artaport\main\montarl.bmp~            ~override\montarl.bmp~
+COPY ~artaport\main\montarm.bmp~            ~override\montarm.bmp~
+COPY ~artaport\main\montars.bmp~            ~override\montars.bmp~
+COPY ~artaport\main\neeral.bmp~            ~override\neeral.bmp~
+COPY ~artaport\main\neeram.bmp~            ~override\neeram.bmp~
+COPY ~artaport\main\neeras.bmp~            ~override\neeras.bmp~
+COPY ~artaport\main\quaylel.bmp~            ~override\quaylel.bmp~
+COPY ~artaport\main\quaylem.bmp~            ~override\quaylem.bmp~
+COPY ~artaport\main\quayles.bmp~            ~override\quayles.bmp~
+COPY ~artaport\main\rasaadl.bmp~            ~override\rasaadl.bmp~
+COPY ~artaport\main\rasaadm.bmp~            ~override\rasaadm.bmp~
+COPY ~artaport\main\rasaads.bmp~            ~override\rasaads.bmp~
+COPY ~artaport\main\safanal.bmp~            ~override\safanal.bmp~
+COPY ~artaport\main\safanam.bmp~            ~override\safanam.bmp~
+COPY ~artaport\main\safanas.bmp~            ~override\safanas.bmp~
+COPY ~artaport\main\shartell.bmp~            ~override\shartell.bmp~
+COPY ~artaport\main\shartelm.bmp~            ~override\shartelm.bmp~
+COPY ~artaport\main\shartels.bmp~            ~override\shartels.bmp~
+COPY ~artaport\main\skiel.bmp~            ~override\skiel.bmp~
+COPY ~artaport\main\skiem.bmp~            ~override\skiem.bmp~
+COPY ~artaport\main\skies.bmp~            ~override\skies.bmp~
+COPY ~artaport\main\tiaxl.bmp~            ~override\tiaxl.bmp~
+COPY ~artaport\main\tiaxm.bmp~            ~override\tiaxm.bmp~
+COPY ~artaport\main\tiaxs.bmp~            ~override\tiaxs.bmp~
+COPY ~artaport\main\viconial.bmp~            ~override\viconial.bmp~
+COPY ~artaport\main\viconiam.bmp~            ~override\viconiam.bmp~
+COPY ~artaport\main\viconias.bmp~            ~override\viconias.bmp~
+COPY ~artaport\main\woman1l.bmp~            ~override\woman1l.bmp~
+COPY ~artaport\main\woman1m.bmp~            ~override\woman1m.bmp~
+COPY ~artaport\main\woman1s.bmp~            ~override\woman1s.bmp~
+COPY ~artaport\main\woman2l.bmp~            ~override\woman2l.bmp~
+COPY ~artaport\main\woman2m.bmp~            ~override\woman2m.bmp~
+COPY ~artaport\main\woman2s.bmp~            ~override\woman2s.bmp~
+COPY ~artaport\main\xanl.bmp~            ~override\xanl.bmp~
+COPY ~artaport\main\xanm.bmp~            ~override\xanm.bmp~
+COPY ~artaport\main\xans.bmp~            ~override\xans.bmp~
+COPY ~artaport\main\xzarl.bmp~            ~override\xzarl.bmp~
+COPY ~artaport\main\xzarm.bmp~            ~override\xzarm.bmp~
+COPY ~artaport\main\xzars.bmp~            ~override\xzars.bmp~
+COPY ~artaport\main\yeslickl.bmp~            ~override\yeslickl.bmp~
+COPY ~artaport\main\yeslickm.bmp~            ~override\yeslickm.bmp~
+COPY ~artaport\main\yeslicks.bmp~            ~override\yeslicks.bmp~
+
+
+BEGIN @20
+REQUIRE_PREDICATE GAME_IS ~sod eet~  @25
+
+
+COPY ~artaport\main\ajantisl.bmp~            ~override\ajantisl.bmp~
+COPY ~artaport\main\ajantism.bmp~            ~override\ajantism.bmp~
+COPY ~artaport\main\ajantiss.bmp~            ~override\ajantiss.bmp~
+COPY ~artaport\main\aloral.bmp~            ~override\aloral.bmp~
+COPY ~artaport\main\aloram.bmp~            ~override\aloram.bmp~
+COPY ~artaport\main\aloras.bmp~            ~override\aloras.bmp~
+COPY ~artaport\main\baelothl.bmp~            ~override\baelothl.bmp~
+COPY ~artaport\main\baelothm.bmp~            ~override\baelothm.bmp~
+COPY ~artaport\main\baeloths.bmp~            ~override\baeloths.bmp~
+COPY ~artaport\main\bdimoenl.bmp~            ~override\bdimoenl.bmp~
+COPY ~artaport\main\bdimoenm.bmp~            ~override\bdimoenm.bmp~
+COPY ~artaport\main\bdimoens.bmp~            ~override\bdimoens.bmp~
+COPY ~artaport\main\bdviconl.bmp~            ~override\bdviconl.bmp~
+COPY ~artaport\main\bdviconm.bmp~            ~override\bdviconm.bmp~
+COPY ~artaport\main\bdvicons.bmp~            ~override\bdvicons.bmp~
+COPY ~artaport\main\bdorcf1l.bmp~            ~override\bdorcf1l.bmp~
+COPY ~artaport\main\bdorcf1m.bmp~            ~override\bdorcf1m.bmp~
+COPY ~artaport\main\bdorcm1l.bmp~            ~override\bdorcm1l.bmp~
+COPY ~artaport\main\bdorcm1m.bmp~            ~override\bdorcm1m.bmp~
+COPY ~artaport\main\branwel.bmp~            ~override\branwel.bmp~
+COPY ~artaport\main\branwem.bmp~            ~override\branwem.bmp~
+COPY ~artaport\main\branwes.bmp~            ~override\branwes.bmp~
+COPY ~artaport\main\coranl.bmp~            ~override\coranl.bmp~
+COPY ~artaport\main\coranm.bmp~            ~override\coranm.bmp~
+COPY ~artaport\main\corans.bmp~            ~override\corans.bmp~
+COPY ~artaport\main\dornl.bmp~            ~override\dornl.bmp~
+COPY ~artaport\main\dornm.bmp~            ~override\dornm.bmp~
+COPY ~artaport\main\dorns.bmp~            ~override\dorns.bmp~
+COPY ~artaport\main\dsclaral.bmp~            ~override\dsclaral.bmp~
+COPY ~artaport\main\dsclaram.bmp~            ~override\dsclaram.bmp~
+COPY ~artaport\main\dsclaras.bmp~            ~override\dsclaras.bmp~
+COPY ~artaport\main\dynaheil.bmp~            ~override\dynaheil.bmp~
+COPY ~artaport\main\dynaheim.bmp~            ~override\dynaheim.bmp~
+COPY ~artaport\main\dynaheis.bmp~            ~override\dynaheis.bmp~
+COPY ~artaport\main\edwinl.bmp~            ~override\edwinl.bmp~
+COPY ~artaport\main\edwinm.bmp~            ~override\edwinm.bmp~
+COPY ~artaport\main\edwins.bmp~            ~override\edwins.bmp~
+COPY ~artaport\main\eldothl.bmp~            ~override\eldothl.bmp~
+COPY ~artaport\main\eldothm.bmp~            ~override\eldothm.bmp~
+COPY ~artaport\main\eldoths.bmp~            ~override\eldoths.bmp~
+COPY ~artaport\main\faldornl.bmp~            ~override\faldornl.bmp~
+COPY ~artaport\main\faldornm.bmp~            ~override\faldornm.bmp~
+COPY ~artaport\main\faldorns.bmp~            ~override\faldorns.bmp~
+COPY ~artaport\main\garrickl.bmp~            ~override\garrickl.bmp~
+COPY ~artaport\main\garrickm.bmp~            ~override\garrickm.bmp~
+COPY ~artaport\main\garricks.bmp~            ~override\garricks.bmp~
+COPY ~artaport\main\GenDWRFL.bmp~            ~override\GenDWRFL.bmp~
+COPY ~artaport\main\GenDWRFm.bmp~            ~override\GenDWRFm.bmp~
+COPY ~artaport\main\GenDWRFs.bmp~            ~override\GenDWRFs.bmp~
+COPY ~artaport\main\GenMELFL.bmp~            ~override\GenMELFL.bmp~
+COPY ~artaport\main\GenMELFm.bmp~            ~override\GenMELFm.bmp~
+COPY ~artaport\main\GenMELFs.bmp~            ~override\GenMELFs.bmp~
+COPY ~artaport\main\GenMHLFL.bmp~            ~override\GenMHLFL.bmp~
+COPY ~artaport\main\GenMHLFm.bmp~            ~override\GenMHLFm.bmp~
+COPY ~artaport\main\GenMHLFs.bmp~            ~override\GenMHLFs.bmp~
+COPY ~artaport\main\glintl.bmp~            ~override\glintl.bmp~
+COPY ~artaport\main\glintm.bmp~            ~override\glintm.bmp~
+COPY ~artaport\main\glints.bmp~            ~override\glints.bmp~
+COPY ~artaport\main\imoenL.bmp~            ~override\imoenL.bmp~
+COPY ~artaport\main\imoenm.bmp~            ~override\imoenm.bmp~
+COPY ~artaport\main\imoens.bmp~            ~override\imoens.bmp~
+COPY ~artaport\main\jaheiraL.bmp~            ~override\jaheiraL.bmp~
+COPY ~artaport\main\jaheiram.bmp~            ~override\jaheiram.bmp~
+COPY ~artaport\main\jaheiras.bmp~            ~override\jaheiras.bmp~
+COPY ~artaport\main\kagainL.bmp~            ~override\kagainL.bmp~
+COPY ~artaport\main\kagainm.bmp~            ~override\kagainm.bmp~
+COPY ~artaport\main\kagains.bmp~            ~override\kagains.bmp~
+COPY ~artaport\main\khalidl.bmp~            ~override\khalidl.bmp~
+COPY ~artaport\main\khalidm.bmp~            ~override\khalidm.bmp~
+COPY ~artaport\main\khalids.bmp~            ~override\khalids.bmp~
+COPY ~artaport\main\kivanl.bmp~            ~override\kivanl.bmp~
+COPY ~artaport\main\kivanm.bmp~            ~override\kivanm.bmp~
+COPY ~artaport\main\kivans.bmp~            ~override\kivans.bmp~
+COPY ~artaport\main\man1l.bmp~            ~override\man1l.bmp~
+COPY ~artaport\main\man1m.bmp~            ~override\man1m.bmp~
+COPY ~artaport\main\man1s.bmp~            ~override\man1s.bmp~
+COPY ~artaport\main\man2l.bmp~            ~override\man2l.bmp~
+COPY ~artaport\main\man2m.bmp~            ~override\man2m.bmp~
+COPY ~artaport\main\man2s.bmp~            ~override\man2s.bmp~
+COPY ~artaport\main\manley0l.bmp~            ~override\manley0l.bmp~
+COPY ~artaport\main\manley0m.bmp~            ~override\manley0m.bmp~
+COPY ~artaport\main\manley0s.bmp~            ~override\manley0s.bmp~
+COPY ~artaport\main\manley1l.bmp~            ~override\manley1l.bmp~
+COPY ~artaport\main\manley1m.bmp~            ~override\manley1m.bmp~
+COPY ~artaport\main\manley1s.bmp~            ~override\manley1s.bmp~
+COPY ~artaport\main\manley2l.bmp~            ~override\manley2l.bmp~
+COPY ~artaport\main\manley2m.bmp~            ~override\manley2m.bmp~
+COPY ~artaport\main\manley2s.bmp~            ~override\manley2s.bmp~
+COPY ~artaport\main\manley3l.bmp~            ~override\manley3l.bmp~
+COPY ~artaport\main\manley3m.bmp~            ~override\manley3m.bmp~
+COPY ~artaport\main\manley3s.bmp~            ~override\manley3s.bmp~
+COPY ~artaport\main\manley4l.bmp~            ~override\manley4l.bmp~
+COPY ~artaport\main\manley4m.bmp~            ~override\manley4m.bmp~
+COPY ~artaport\main\manley4s.bmp~            ~override\manley4s.bmp~
+COPY ~artaport\main\manley5l.bmp~            ~override\manley5l.bmp~
+COPY ~artaport\main\manley5m.bmp~            ~override\manley5m.bmp~
+COPY ~artaport\main\manley5s.bmp~            ~override\manley5s.bmp~
+COPY ~artaport\main\manley6l.bmp~            ~override\manley6l.bmp~
+COPY ~artaport\main\manley6m.bmp~            ~override\manley6m.bmp~
+COPY ~artaport\main\manley6s.bmp~            ~override\manley6s.bmp~
+COPY ~artaport\main\manley7l.bmp~            ~override\manley7l.bmp~
+COPY ~artaport\main\manley7m.bmp~            ~override\manley7m.bmp~
+COPY ~artaport\main\manley7s.bmp~            ~override\manley7s.bmp~
+COPY ~artaport\main\manley8l.bmp~            ~override\manley8l.bmp~
+COPY ~artaport\main\manley8m.bmp~            ~override\manley8m.bmp~
+COPY ~artaport\main\manley8s.bmp~            ~override\manley8s.bmp~
+COPY ~artaport\main\manley9l.bmp~            ~override\manley9l.bmp~
+COPY ~artaport\main\manley9m.bmp~            ~override\manley9m.bmp~
+COPY ~artaport\main\manley9s.bmp~            ~override\manley9s.bmp~
+COPY ~artaport\main\manleyxl.bmp~            ~override\manleyxl.bmp~
+COPY ~artaport\main\manleyxm.bmp~            ~override\manleyxm.bmp~
+COPY ~artaport\main\manleyxs.bmp~            ~override\manleyxs.bmp~
+COPY ~artaport\main\minscl.bmp~            ~override\minscl.bmp~
+COPY ~artaport\main\minscm.bmp~            ~override\minscm.bmp~
+COPY ~artaport\main\minscs.bmp~            ~override\minscs.bmp~
+COPY ~artaport\main\mkhiinl.bmp~            ~override\mkhiinl.bmp~
+COPY ~artaport\main\mkhiinm.bmp~            ~override\mkhiinm.bmp~
+COPY ~artaport\main\mkhiins.bmp~            ~override\mkhiins.bmp~
+COPY ~artaport\main\montarl.bmp~            ~override\montarl.bmp~
+COPY ~artaport\main\montarm.bmp~            ~override\montarm.bmp~
+COPY ~artaport\main\montars.bmp~            ~override\montars.bmp~
+COPY ~artaport\main\neeral.bmp~            ~override\neeral.bmp~
+COPY ~artaport\main\neeram.bmp~            ~override\neeram.bmp~
+COPY ~artaport\main\neeras.bmp~            ~override\neeras.bmp~
+COPY ~artaport\main\naeriel.bmp~            ~override\naeriel.bmp~
+COPY ~artaport\main\naeriem.bmp~            ~override\naeriem.bmp~
+COPY ~artaport\main\naeries.bmp~            ~override\naeries.bmp~
+COPY ~artaport\main\nanomenl.bmp~            ~override\nanomenl.bmp~
+COPY ~artaport\main\nanomenm.bmp~            ~override\nanomenm.bmp~
+COPY ~artaport\main\nanomens.bmp~            ~override\nanomens.bmp~
+COPY ~artaport\main\ncerndm.bmp~            ~override\ncerndm.bmp~
+COPY ~artaport\main\ncernds.bmp~            ~override\ncernds.bmp~
+COPY ~artaport\main\nedwinl.bmp~            ~override\nedwinl.bmp~
+COPY ~artaport\main\nedwinm.bmp~            ~override\nedwinm.bmp~
+COPY ~artaport\main\nedwins.bmp~            ~override\nedwins.bmp~
+COPY ~artaport\main\nhaerl.bmp~            ~override\nhaerl.bmp~
+COPY ~artaport\main\nhaerm.bmp~            ~override\nhaerm.bmp~
+COPY ~artaport\main\nhaers.bmp~            ~override\nhaers.bmp~
+COPY ~artaport\main\nhorcl.bmp~            ~override\nhorcl.bmp~
+COPY ~artaport\main\nhorcm.bmp~            ~override\nhorcm.bmp~
+COPY ~artaport\main\nhorcs.bmp~            ~override\nhorcs.bmp~
+COPY ~artaport\main\nimoenl.bmp~            ~override\nimoenl.bmp~
+COPY ~artaport\main\nimoenm.bmp~            ~override\nimoenm.bmp~
+COPY ~artaport\main\nimoens.bmp~            ~override\nimoens.bmp~
+COPY ~artaport\main\njaheirl.bmp~            ~override\njaheirl.bmp~
+COPY ~artaport\main\njaheirm.bmp~            ~override\njaheirm.bmp~
+COPY ~artaport\main\njaheirs.bmp~            ~override\njaheirs.bmp~
+COPY ~artaport\main\nminscl.bmp~            ~override\nminscl.bmp~
+COPY ~artaport\main\nminscm.bmp~            ~override\nminscm.bmp~
+COPY ~artaport\main\nminscs.bmp~            ~override\nminscs.bmp~
+COPY ~artaport\main\nviconl.bmp~            ~override\nviconl.bmp~
+COPY ~artaport\main\nviconm.bmp~            ~override\nviconm.bmp~
+COPY ~artaport\main\nvicons.bmp~            ~override\nvicons.bmp~
+COPY ~artaport\main\quaylel.bmp~            ~override\quaylel.bmp~
+COPY ~artaport\main\quaylem.bmp~            ~override\quaylem.bmp~
+COPY ~artaport\main\quayles.bmp~            ~override\quayles.bmp~
+COPY ~artaport\main\rasaadl.bmp~            ~override\rasaadl.bmp~
+COPY ~artaport\main\rasaadm.bmp~            ~override\rasaadm.bmp~
+COPY ~artaport\main\rasaads.bmp~            ~override\rasaads.bmp~
+COPY ~artaport\main\safanal.bmp~            ~override\safanal.bmp~
+COPY ~artaport\main\safanam.bmp~            ~override\safanam.bmp~
+COPY ~artaport\main\safanas.bmp~            ~override\safanas.bmp~
+COPY ~artaport\main\schaell.bmp~            ~override\schaell.bmp~
+COPY ~artaport\main\schaelm.bmp~            ~override\schaelm.bmp~
+COPY ~artaport\main\schaels.bmp~            ~override\schaels.bmp~
+COPY ~artaport\main\shartell.bmp~            ~override\shartell.bmp~
+COPY ~artaport\main\shartelm.bmp~            ~override\shartelm.bmp~
+COPY ~artaport\main\shartels.bmp~            ~override\shartels.bmp~
+COPY ~artaport\main\skiel.bmp~            ~override\skiel.bmp~
+COPY ~artaport\main\skiem.bmp~            ~override\skiem.bmp~
+COPY ~artaport\main\skies.bmp~            ~override\skies.bmp~
+COPY ~artaport\main\tiaxl.bmp~            ~override\tiaxl.bmp~
+COPY ~artaport\main\tiaxm.bmp~            ~override\tiaxm.bmp~
+COPY ~artaport\main\tiaxs.bmp~            ~override\tiaxs.bmp~
+COPY ~artaport\main\viconial.bmp~            ~override\viconial.bmp~
+COPY ~artaport\main\viconiam.bmp~            ~override\viconiam.bmp~
+COPY ~artaport\main\viconias.bmp~            ~override\viconias.bmp~
+COPY ~artaport\main\voghilnl.bmp~            ~override\voghilnl.bmp~
+COPY ~artaport\main\voghilnm.bmp~            ~override\voghilnm.bmp~
+COPY ~artaport\main\voghilns.bmp~            ~override\voghilns.bmp~
+COPY ~artaport\main\woman1l.bmp~            ~override\woman1l.bmp~
+COPY ~artaport\main\woman1m.bmp~            ~override\woman1m.bmp~
+COPY ~artaport\main\woman1s.bmp~            ~override\woman1s.bmp~
+COPY ~artaport\main\woman2l.bmp~            ~override\woman2l.bmp~
+COPY ~artaport\main\woman2m.bmp~            ~override\woman2m.bmp~
+COPY ~artaport\main\woman2s.bmp~            ~override\woman2s.bmp~
+COPY ~artaport\main\xanl.bmp~            ~override\xanl.bmp~
+COPY ~artaport\main\xanm.bmp~            ~override\xanm.bmp~
+COPY ~artaport\main\xans.bmp~            ~override\xans.bmp~
+COPY ~artaport\main\xzarl.bmp~            ~override\xzarl.bmp~
+COPY ~artaport\main\xzarm.bmp~            ~override\xzarm.bmp~
+COPY ~artaport\main\xzars.bmp~            ~override\xzars.bmp~
+COPY ~artaport\main\yeslickl.bmp~            ~override\yeslickl.bmp~
+COPY ~artaport\main\yeslickm.bmp~            ~override\yeslickm.bmp~
+COPY ~artaport\main\yeslicks.bmp~            ~override\yeslicks.bmp~
+
+
+BEGIN @50 
+REQUIRE_PREDICATE GAME_IS ~bgee sod eet~ @25
+
+COPY ~artaport\main\angelo.bmp~            ~override\angelo.bmp~
+COPY ~artaport\main\belt.bmp~            ~override\belt.bmp~
+COPY ~artaport\main\daveron.bmp~            ~override\daveron.bmp~
+COPY ~artaport\main\drizzt.bmp~            ~override\drizzt.bmp~
+COPY ~artaport\main\elmin.bmp~            ~override\elmin.bmp~
+COPY ~artaport\main\eltan.bmp~            ~override\eltan.bmp~
+COPY ~artaport\main\gorion.bmp~            ~override\gorion.bmp~
+COPY ~artaport\main\liia.bmp~            ~override\liia.bmp~
+COPY ~artaport\main\mulah.bmp~            ~override\mulah.bmp~
+COPY ~artaport\main\rieltar.bmp~            ~override\rieltar.bmp~
+COPY ~artaport\main\sarevok.bmp~            ~override\sarevok.bmp~
+COPY ~artaport\main\scar.bmp~            ~override\scar.bmp~
+COPY ~artaport\main\tamoko.bmp~            ~override\tamoko.bmp~
+COPY ~artaport\main\tazok.bmp~            ~override\tazok.bmp~
+
+
+
+ COPY_EXISTING ~tazok.cre~  ~override~
+                ~tazok2.cre~ ~override~
+    WRITE_ASCII 0x34 ~tazok~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~angelo.cre~ ~override~
+    WRITE_ASCII 0x34 ~angelo~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~belt.cre~ ~override~
+    WRITE_ASCII 0x34 ~belt~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~davaeo.cre~ ~override~
+    WRITE_ASCII 0x34 ~daveron~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~sarevo.cre~  ~override~
+                ~sarevo2.cre~ ~override~
+    WRITE_ASCII 0x34 ~sarevok~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~deltan.cre~  ~override~
+                ~deltan2.cre~ ~override~
+    WRITE_ASCII 0x34 ~eltan~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~liia.cre~ ~override~
+   WRITE_ASCII 0x34 ~liia~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~mulahe.cre~ ~override~
+    WRITE_ASCII 0x34 ~mulah~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~rielta.cre~ ~override~
+    WRITE_ASCII 0x34 ~rieltar~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~drizzt.cre~ ~override~
+    WRITE_ASCII 0x34 ~drizzt~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~gorion.cre~  ~override~
+    WRITE_ASCII 0x34 ~gorion~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+   COPY_EXISTING ~gorion3.cre~  ~override~
+    WRITE_ASCII 0x34 ~gorion~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~elmin2.cre~  ~override~
+                ~elmin3.cre~  ~override~
+                ~elmin5.cre~  ~override~
+                ~elmins4.cre~ ~override~
+    WRITE_ASCII 0x34 ~elmin~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~scar.cre~ ~override~
+    WRITE_ASCII 0x34 ~scar~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~tamoko.cre~ ~override~
+    WRITE_ASCII 0x34 ~tamoko~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+
+
+
+
+BEGIN @80 
+REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @25
+
+
+COPY ~artaport\main\aran.bmp~            ~override\aran.bmp~
+COPY ~artaport\main\gorion.bmp~            ~override\gorion.bmp~
+COPY ~artaport\main\saemon.bmp~            ~override\saemon.bmp~
+COPY ~artaport\main\drizzt.bmp~            ~override\drizzt.bmp~
+COPY ~artaport\main\elmin.bmp~            ~override\elmin.bmp~
+COPY ~artaport\main\suelle.bmp~            ~override\suelle.bmp~
+COPY ~artaport\main\tazok.bmp~            ~override\tazok.bmp~
+COPY ~artaport\main\gaelan.bmp~            ~override\gaelan.bmp~
+COPY ~artaport\main\solauf.bmp~            ~override\solauf.bmp~
+COPY ~artaport\main\ardulace.bmp~            ~override\ardulace.bmp~
+COPY ~artaport\main\phaere.bmp~            ~override\phaere.bmp~
+
+
+
+
+
+ COPY_EXISTING ~aran.cre~ ~override~
+    WRITE_ASCII 0x34 ~aran~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~aran02.cre~ ~override~
+    WRITE_ASCII 0x34 ~aran~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~pparan2.cre~ ~override~
+    WRITE_ASCII 0x34 ~aran~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~gaelan.cre~ ~override~
+    WRITE_ASCII 0x34 ~gaelan~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~gaelan2.cre~ ~override~
+    WRITE_ASCII 0x34 ~gaelan~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~suelle.cre~ ~override~
+    WRITE_ASCII 0x34 ~suelle~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~suelle2.cre~ ~override~
+    WRITE_ASCII 0x34 ~suelle~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~suelleap.cre~ ~override~
+    WRITE_ASCII 0x34 ~suelle~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~amsaemon.cre~ ~override~
+    WRITE_ASCII 0x34 ~saemon~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~ohb2smon.cre~ ~override~
+    WRITE_ASCII 0x34 ~saemon~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~ohdsaem.cre~ ~override~
+    WRITE_ASCII 0x34 ~saemon~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~ppsaem.cre~ ~override~
+    WRITE_ASCII 0x34 ~saemon~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~ppsaem2.cre~ ~override~
+    WRITE_ASCII 0x34 ~saemon~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~ppsaem3.cre~ ~override~
+    WRITE_ASCII 0x34 ~saemon~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~ppsha.cre~ ~override~
+    WRITE_ASCII 0x34 ~saemon~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~drizzt.cre~ ~override~
+    WRITE_ASCII 0x34 ~drizzt~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~c6drizz.cre~ ~override~
+    WRITE_ASCII 0x34 ~drizzt~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~c6drizz2.cre~ ~override~
+    WRITE_ASCII 0x34 ~drizzt~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~c6drizz3.cre~ ~override~
+    WRITE_ASCII 0x34 ~drizzt~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~amelm01.cre~ ~override~
+    WRITE_ASCII 0x34 ~elmin~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~elmind.cre~ ~override~
+    WRITE_ASCII 0x34 ~elmin~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~merlin.cre~ ~override~
+    WRITE_ASCII 0x34 ~elmin~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~sahimp03.cre~ ~override~
+    WRITE_ASCII 0x34 ~elmin~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~d1gori.cre~ ~override~
+    WRITE_ASCII 0x34 ~gorion~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~d1skel.cre~ ~override~
+    WRITE_ASCII 0x34 ~gorion~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~goriond.cre~ ~override~
+    WRITE_ASCII 0x34 ~gorion~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~hgwra01.cre~ ~override~
+    WRITE_ASCII 0x34 ~gorion~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~chtaz01.cre~ ~override~
+    WRITE_ASCII 0x34 ~tazok~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~tazok.cre~ ~override~
+    WRITE_ASCII 0x34 ~tazok~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~udsola01.cre~ ~override~
+    WRITE_ASCII 0x34 ~solauf~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~udsola02.cre~ ~override~
+    WRITE_ASCII 0x34 ~solauf~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~cuardul.cre~ ~override~
+    WRITE_ASCII 0x34 ~ardulace~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~udardul.cre~ ~override~
+    WRITE_ASCII 0x34 ~ardulace~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~cuphaer.cre~ ~override~
+    WRITE_ASCII 0x34 ~phaere~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~ohb2phar.cre~ ~override~
+    WRITE_ASCII 0x34 ~phaere~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~udphae01.cre~ ~override~
+    WRITE_ASCII 0x34 ~phaere~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~udphae02.cre~ ~override~
+    WRITE_ASCII 0x34 ~phaere~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+
+BEGIN @90 
+REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @25
+
+ COPY_EXISTING ~C6CORAN.CRE~ ~override~
+    WRITE_ASCII 0x34 ~corans~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~C6SAFA.CRE~ ~override~
+    WRITE_ASCII 0x34 ~safanas~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~CEFALD01.CRE~  ~override~
+                ~CEFALD02.CRE~  ~override~
+                ~CEFALD04.CRE~  ~override~
+                ~CEFALDOR.CRE~ ~override~
+    WRITE_ASCII 0x34 ~faldorns~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~GARRICK.CRE~ ~override~
+    WRITE_ASCII 0x34 ~garricks~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~QUAYLE.CRE~ ~override~
+    WRITE_ASCII 0x34 ~quayles~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~LYROS.CRE~  ~override~
+                ~XZAR.CRE~  ~override~          
+    WRITE_ASCII 0x34 ~xzars~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+ COPY_EXISTING ~PPTIAX.CRE~  ~override~
+                ~PPTIAX2.CRE~  ~override~          
+    WRITE_ASCII 0x34 ~tiaxs~ #8 //  small portrait
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY ~artaport\main\sunal.bmp~            ~override\sunal.bmp~
+COPY ~artaport\main\sunas.bmp~            ~override\sunas.bmp~
+
+
+
+BEGIN @100 DESIGNATED 1180
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @25
+
+COPY  	~artaport\main\edwinl.bmp~            ~override\edwinl.bmp~
+	~artaport\main\edwinm.bmp~            ~override\edwinm.bmp~
+	~artaport\main\edwins.bmp~            ~override\edwins.bmp~
+	~artaport\main\edwinal.bmp~	      ~override\edwinal.bmp~
+     	~artaport\main\edwinas.bmp~ 	      ~override\edwinas.bmp~
+
+// add portrait change opcodes to edwin transform spells
+COPY_EXISTING ~spin662.spl~ ~override~ // return to edwin
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 1 timing = 1 STR_VAR resource = nedwinm END // large portrait
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 0 timing = 1 STR_VAR resource = nedwins END // small portrait
+
+// add portrait change opcodes to edwin transform spells
+COPY_EXISTING ~spin916.spl~ ~override~ // change to edwina
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 1 timing = 1 STR_VAR resource = edwinal END // large portrait
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 0 timing = 1 STR_VAR resource = edwinas END // small portrait
+
+
+
+
+
+
+
+
+
+
