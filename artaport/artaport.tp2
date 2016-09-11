@@ -401,7 +401,7 @@ COPY ~artaport\main\yeslicks.bmp~            ~override\yeslicks.bmp~
 
 
 BEGIN @20
-REQUIRE_PREDICATE GAME_IS ~sod eet~  @25
+REQUIRE_PREDICATE GAME_INCLUDES ~sod~ @25
 
 
 COPY ~artaport\main\ajantisl.bmp~            ~override\ajantisl.bmp~
