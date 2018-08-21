@@ -104,6 +104,7 @@ COPY ~artaport\main\njanm.bmp~            ~override\njanm.bmp~
 COPY ~artaport\main\njans.bmp~            ~override\njans.bmp~
 COPY ~artaport\main\njonl.bmp~            ~override\njonl.bmp~
 COPY ~artaport\main\njonm.bmp~            ~override\njonm.bmp~
+COPY ~artaport\main\njons.bmp~            ~override\njons.bmp~
 COPY ~artaport\main\nkeldorl.bmp~            ~override\nkeldorl.bmp~
 COPY ~artaport\main\nkeldorm.bmp~            ~override\nkeldorm.bmp~
 COPY ~artaport\main\nkeldors.bmp~            ~override\nkeldors.bmp~
